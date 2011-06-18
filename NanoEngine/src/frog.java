@@ -9,6 +9,7 @@ public class frog extends Sprite
 	{
 		this.timeCRYSIS = (Timediff()/10);
 		this.x += this.vx *(timeCRYSIS);
+		this.y += 2.5 *(timeCRYSIS);
 	}
 	
 }
