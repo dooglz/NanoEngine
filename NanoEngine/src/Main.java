@@ -12,11 +12,11 @@ public class Main extends JFrame
 		woopata.Displayfps = false;
 		int i= 0;
 		gamerunning = true;
-		while(i < 5000)
+		while(i < 10000) //only loop 10'000 times, just incase... (obviously this will needed to be taken out sometime)
 		{
-		logic.update();
-		woopata.render();
-		i++;
+			logic.update();
+			woopata.render();
+			i++;
 		}
 		gamerunning = false;
 	}
